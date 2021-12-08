@@ -10,7 +10,7 @@ This project displays weather data for any given city using the [OpenWeather API
  - Built with Typescript
  - All API requests go through an Axios instance
  - Uses Redux Toolkit for state mangement and uses Thunks to manage asynchronous api requests
- - Built with React
+ - React based application
 
 
 ## Available Scripts
