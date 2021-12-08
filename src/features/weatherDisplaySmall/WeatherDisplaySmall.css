@@ -1,0 +1,51 @@
+.small-weather-display {
+  background-color: #e0e8f9;
+  border-radius: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 120px;
+  width: 320px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.small-weather-display__text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.small-weather-display__day-of-week {
+  grid-column: span 2;
+  color: #323f4b;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.small-weather-display__temp {
+  margin: 0px;
+  color: #1f2933;
+  font-size: 40px;
+}
+
+.small-weather-display__temp--light {
+  color: #52606d;
+  margin-left: 10px;
+}
+
+.small-weather-display__weather-group {
+  margin: 0 auto;
+}
+
+.small-weather-display__weather-description {
+  margin: 0;
+  color: #323f4b;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
