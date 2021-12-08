@@ -1,5 +1,5 @@
 ## View a live verison of this project https://weather-app-cameron-demille.vercel.app/
-***
+
 This project displays weather data for any given city using the [OpenWeather API](https://openweathermap.org/api).
 
 ## Features
