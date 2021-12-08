@@ -139,6 +139,7 @@ export const getWeatherAsync = createAsyncThunk(
     if (!data.coords.lat && !data.coords.lon) {
       const forecastResponse = await API.get('/data/2.5/forecast?q=' + data.city + '&appid=c992141e13350085201ac4d797865f73&units=imperial');
       coords = forecastResponse.data.city.coord;
+      city = forecastResponse.data.city.name;
     }
 
     if (!data.city) {
